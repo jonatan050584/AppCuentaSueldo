@@ -7,7 +7,7 @@ var User = function(info){
 	this.nivel = info.level;
 
 
-	var push = PushNotification.init({
+	/*var push = PushNotification.init({
         android: {
             senderID: "564039352699"
         },
@@ -20,21 +20,12 @@ var User = function(info){
     });
 
     push.on('registration', function(data) {
-        
-        /*$.ajax{
-			url:apiurl,
-			data:{
-				'ac':'registrarDispositivo',
-				'doc':this.dni,
-				'registrationId':data.registrationId
-			},
-		}*/
-
+     
 		console.log(data);
     
 
 
-    });
+    });*/
 
 	
 
